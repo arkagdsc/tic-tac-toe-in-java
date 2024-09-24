@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(133, 236, 202);
+}
+#heading1
+{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    color: rgb(85, 30, 30);
+}
+main
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.outerContainer
+{
+    margin-top: 30px;
+    height:350px;
+    width:350px;
+    border: 5px solid rgb(25, 118, 37);
+    border-radius: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.playGame
+{
+    height:300px;
+    width:300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;;
+
+}
+.box
+{
+    height:32.50%;
+    width: 32.35%;
+    font-size: 70px;
+    background-color: rgb(208, 209, 177);
+    color: rgb(227, 64, 64);
+    border:1px solid black;
+    border-radius: 10%;
+}
+#reset
+{
+    height:50px;
+    width:180px;
+    font-size: large;
+    color:white;
+    border-radius: 5%;
+    background-color: #250552;
+} 
+#resetbtn
+{
+    margin-top: 30px;
+    display:flex; 
+    justify-content: center;
+}
+#newGame
+{
+    height:50px;
+    width:180px;
+    font-size: large;
+    color:white;
+    border-radius: 5%;
+    background-color: #b0231e;
+}
+#newGamebtn
+{
+    margin-top: 30px;
+    display:flex; 
+    justify-content: center;
+}
+.winner{
+    display:flex;
+    justify-content: center;
+}
+#printWinner{
+    font-size: 20px;
+}
+.times_won
+{
+    color: rgb(255, 82, 2);
+    font-size: 25px;
+    font-weight:bolder;
+    display:flex;
+    justify-content: center;
+}
